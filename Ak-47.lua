@@ -1,4 +1,4 @@
--- made by ChiefBlox
+-- Made By Mscuaz
 function sandbox(var,func)
 	local env = getfenv(func)
 	local newenv = setmetatable({},{
